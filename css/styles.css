@@ -2312,6 +2312,12 @@ label {
   background-position: center bottom;
 }
 
+@media (max-width:768px) {
+  .footer {
+    background-size: cover;
+  }
+}
+
 .footer::before {
   content: '';
   position: absolute;
